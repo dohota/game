@@ -1,4 +1,4 @@
-# pyqt
+# programme
 This is meant to learn python-pyqt5
 
 
