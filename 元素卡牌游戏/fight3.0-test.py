@@ -125,6 +125,3 @@ def ai(energy, p_energy):
                 else:
                     enemy_action = "c" + str(r % int(1.5 * energy + 2) + (1.5 * energy + 2) - 3)
         return enemy_action
-
-
-print("swssws  ewe32"[0])
