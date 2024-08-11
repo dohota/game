@@ -1,0 +1,55 @@
+{
+    "breakpoints": [
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "player.cpp",
+            "line": 24,
+            "timestamp": "1723255132665"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "display.cpp",
+            "line": 21,
+            "timestamp": "1723255407865"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "main.cpp",
+            "line": 13,
+            "timestamp": "1723259968670"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "main.cpp",
+            "line": 12,
+            "timestamp": "1723259969390"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "main.cpp",
+            "line": 18,
+            "timestamp": "1723259971598"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "display.cpp",
+            "line": 28,
+            "timestamp": "1723259984670"
+        }
+    ],
+    "timestamp": "1723268545642",
+    "watchvars": [
+    ]
+}

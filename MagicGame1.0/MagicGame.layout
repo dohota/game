@@ -1,0 +1,112 @@
+[
+    {
+        "caretX": 1,
+        "caretY": 18,
+        "filename": "E:/CC#C++/MagicGame/main.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 7,
+        "filename": "E:/CC#C++/MagicGame/display.cpp",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 9,
+        "topLine": 1
+    },
+    {
+        "caretX": 17,
+        "caretY": 17,
+        "filename": "E:/CC#C++/MagicGame/player.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 2,
+        "topLine": 1
+    },
+    {
+        "caretX": 13,
+        "caretY": 20,
+        "filename": "E:/CC#C++/MagicGame/display.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 6,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 11,
+        "filename": "E:/CC#C++/MagicGame/obj.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 5,
+        "topLine": 3
+    },
+    {
+        "caretX": 17,
+        "caretY": 47,
+        "filename": "E:/CC#C++/MagicGame/obj.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 4,
+        "topLine": 22
+    },
+    {
+        "caretX": 3,
+        "caretY": 11,
+        "filename": "E:/CC#C++/MagicGame/num.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 28,
+        "filename": "E:/CC#C++/MagicGame/bullet.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 7,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 19,
+        "filename": "E:/CC#C++/MagicGame/tool.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 3,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 8,
+        "filename": "E:/CC#C++/MagicGame/weapon.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 10,
+        "topLine": 1
+    },
+    {
+        "caretX": 26,
+        "caretY": 51,
+        "filename": "E:/CC#C++/MagicGame/player.cpp",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 8,
+        "topLine": 1
+    }
+]
