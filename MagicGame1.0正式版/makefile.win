@@ -1,0 +1,50 @@
+# Project: MagicGame
+# Makefile created by Red Panda C++ 2.24
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = MagicGame_private.res
+OBJ      = player.o bullet.o weapon.o obj.o main.o display.o $(RES)
+LINKOBJ  = player.o bullet.o weapon.o obj.o main.o display.o MagicGame_private.res
+CLEANOBJ  =  player.o bullet.o weapon.o obj.o main.o display.o  MagicGame_private.res MagicGame.exe
+LIBS     =  -mwindows -lgraphics -luuid -lmsimg32 -lgdi32 -limm32 -lole32 -loleaut32 -lwinmm -lgdiplus  
+INCS     =  
+CXXINCS  =  
+BIN      = MagicGame.exe
+CXXFLAGS = $(CXXINCS)  -g3 -pipe -Wall -D__DEBUG__
+CFLAGS   = $(INCS)  -g3 -pipe -Wall -D__DEBUG__
+RM       = del /q /f
+WINDRESFLAGS  = 
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) > NUL 2>&1
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+player.o: player.cpp num.h player.h obj.h tool.h display.h
+	$(CPP) -c player.cpp -o player.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+bullet.o: bullet.cpp player.h obj.h tool.h display.h
+	$(CPP) -c bullet.cpp -o bullet.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+weapon.o: weapon.cpp player.h obj.h tool.h display.h
+	$(CPP) -c weapon.cpp -o weapon.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+obj.o: obj.cpp num.h obj.h
+	$(CPP) -c obj.cpp -o obj.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+main.o: main.cpp num.h player.h obj.h tool.h display.h
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+display.o: display.cpp player.h obj.h tool.h display.h
+	$(CPP) -c display.cpp -o display.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+MagicGame_private.res: MagicGame_private.rc 
+	$(WINDRES) -i MagicGame_private.rc --input-format=rc -o MagicGame_private.res -O coff $(WINDRESFLAGS) 
+
