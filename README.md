@@ -48,3 +48,4 @@ electron可以把浏览器代码变为客户端代码
 ##vue3+webassembly(用c++编译而成)+springboot
 
 ##13.Magic game1.0一个不完善有bug的c++初级坦克大战，接下来的版本会让它更加完善
+##14.用pygame做了一个简易的音乐播放器
